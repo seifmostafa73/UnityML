@@ -1,0 +1,795 @@
+2022-06-09 14:25:27,934 INFO  Logger.cs: 70 - 
+--------------------------------------------------------------------------------
+2022-06-09 14:25:27,955 INFO  Logger.cs: 71 - Logging commencing for SW2URDF exporter
+2022-06-09 14:25:27,956 INFO  Logger.cs: 73 - Commit version 1.6.0-4-g7f85cfe
+2022-06-09 14:25:27,956 INFO  Logger.cs: 74 - Build version 1.6.7995.38578
+2022-06-09 14:25:27,958 INFO  SwAddin.cs: 192 - Attempting to connect to SW
+2022-06-09 14:25:27,958 INFO  SwAddin.cs: 197 - Setting up callbacks
+2022-06-09 14:25:27,959 INFO  SwAddin.cs: 201 - Setting up command manager
+2022-06-09 14:25:27,959 INFO  SwAddin.cs: 204 - Adding command manager
+2022-06-09 14:25:27,961 INFO  SwAddin.cs: 263 - Adding Assembly export to file menu
+2022-06-09 14:25:27,962 INFO  SwAddin.cs: 272 - Adding Part export to file menu
+2022-06-09 14:25:27,962 INFO  SwAddin.cs: 210 - Adding event handlers
+2022-06-09 14:25:27,964 INFO  SwAddin.cs: 217 - Connecting plugin to SolidWorks
+2022-06-09 14:35:39,930 INFO  SwAddin.cs: 294 - Assembly export called for file Assem1.SLDASM
+2022-06-09 14:35:39,932 INFO  SwAddin.cs: 299 - Save is required
+2022-06-09 14:35:39,932 INFO  SwAddin.cs: 313 - Saving assembly
+2022-06-09 14:35:45,350 INFO  SwAddin.cs: 316 - Opening property manager
+2022-06-09 14:35:45,362 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1.SLDASM
+2022-06-09 14:35:45,382 INFO  ExportHelperExtension.cs: 1136 - Found 90 in Assem1.SLDASM
+2022-06-09 14:35:45,394 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Assem1.SLDASM
+2022-06-09 14:35:45,395 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:35:45,401 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:35:45,402 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base-1
+2022-06-09 14:35:45,402 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:35:45,402 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base-1
+2022-06-09 14:35:45,403 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo2_link-1
+2022-06-09 14:35:45,403 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:35:45,404 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo2_link-1
+2022-06-09 14:35:45,404 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo1_link-1
+2022-06-09 14:35:45,404 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:35:45,405 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo1_link-1
+2022-06-09 14:35:45,405 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-2
+2022-06-09 14:35:45,405 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:35:45,406 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-2
+2022-06-09 14:35:45,406 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-2
+2022-06-09 14:35:45,406 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:35:45,407 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-2
+2022-06-09 14:35:45,407 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1_left-1
+2022-06-09 14:35:45,407 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:35:45,408 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1_left-1
+2022-06-09 14:35:45,408 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-1
+2022-06-09 14:35:45,408 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:35:45,409 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-1
+2022-06-09 14:35:45,409 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-1
+2022-06-09 14:35:45,410 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:35:45,410 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-1
+2022-06-09 14:35:45,410 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from BreadBoard Large-1
+2022-06-09 14:35:45,411 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:35:45,411 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in BreadBoard Large-1
+2022-06-09 14:35:45,411 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link1-1
+2022-06-09 14:35:45,412 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:35:45,412 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link1-1
+2022-06-09 14:35:45,412 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-3
+2022-06-09 14:35:45,413 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:35:45,413 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-3
+2022-06-09 14:35:45,414 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1-2
+2022-06-09 14:35:45,414 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:35:45,414 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1-2
+2022-06-09 14:35:45,415 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link-1
+2022-06-09 14:35:45,415 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:35:45,415 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link-1
+2022-06-09 14:35:45,416 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-2
+2022-06-09 14:35:45,416 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:35:45,416 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-2
+2022-06-09 14:35:45,417 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-2
+2022-06-09 14:35:45,417 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:35:45,417 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-2
+2022-06-09 14:35:45,418 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-2
+2022-06-09 14:35:45,418 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:35:45,418 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-2
+2022-06-09 14:35:45,419 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-1
+2022-06-09 14:35:45,419 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:35:45,419 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-1
+2022-06-09 14:35:45,420 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-3
+2022-06-09 14:35:45,420 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:35:45,420 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-3
+2022-06-09 14:35:45,421 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from raspberry_carte-1
+2022-06-09 14:35:45,421 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:35:45,421 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in raspberry_carte-1
+2022-06-09 14:35:45,422 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1.SLDASM
+2022-06-09 14:35:45,422 INFO  ExportHelperExtension.cs: 1136 - Found 90 in Assem1.SLDASM
+2022-06-09 14:35:45,423 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Assem1.SLDASM
+2022-06-09 14:35:45,423 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:35:45,423 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:35:45,424 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base-1
+2022-06-09 14:35:45,424 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:35:45,424 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base-1
+2022-06-09 14:35:45,425 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo2_link-1
+2022-06-09 14:35:45,425 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:35:45,425 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo2_link-1
+2022-06-09 14:35:45,426 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo1_link-1
+2022-06-09 14:35:45,426 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:35:45,426 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo1_link-1
+2022-06-09 14:35:45,427 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-2
+2022-06-09 14:35:45,427 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:35:45,427 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-2
+2022-06-09 14:35:45,428 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-2
+2022-06-09 14:35:45,428 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:35:45,428 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-2
+2022-06-09 14:35:45,429 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1_left-1
+2022-06-09 14:35:45,429 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:35:45,429 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1_left-1
+2022-06-09 14:35:45,430 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-1
+2022-06-09 14:35:45,430 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:35:45,430 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-1
+2022-06-09 14:35:45,432 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-1
+2022-06-09 14:35:45,484 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:35:45,484 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-1
+2022-06-09 14:35:45,485 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from BreadBoard Large-1
+2022-06-09 14:35:45,485 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:35:45,486 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in BreadBoard Large-1
+2022-06-09 14:35:45,486 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link1-1
+2022-06-09 14:35:45,486 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:35:45,487 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link1-1
+2022-06-09 14:35:45,487 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-3
+2022-06-09 14:35:45,487 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:35:45,488 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-3
+2022-06-09 14:35:45,488 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1-2
+2022-06-09 14:35:45,489 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:35:45,489 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1-2
+2022-06-09 14:35:45,489 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link-1
+2022-06-09 14:35:45,490 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:35:45,490 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link-1
+2022-06-09 14:35:45,490 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-2
+2022-06-09 14:35:45,491 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:35:45,491 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-2
+2022-06-09 14:35:45,491 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-2
+2022-06-09 14:35:45,492 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:35:45,492 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-2
+2022-06-09 14:35:45,492 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-2
+2022-06-09 14:35:45,493 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:35:45,493 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-2
+2022-06-09 14:35:45,493 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-1
+2022-06-09 14:35:45,494 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:35:45,494 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-1
+2022-06-09 14:35:45,494 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-3
+2022-06-09 14:35:45,495 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:35:45,495 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-3
+2022-06-09 14:35:45,495 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from raspberry_carte-1
+2022-06-09 14:35:45,496 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:35:45,496 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in raspberry_carte-1
+2022-06-09 14:35:46,548 INFO  SwAddin.cs: 339 - Loading config tree
+2022-06-09 14:35:46,551 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2022-06-09 14:35:46,556 INFO  SwAddin.cs: 344 - Showing property manager
+2022-06-09 14:37:07,823 INFO  ExportPropertyManager.cs: 1036 - OnListboxSelectionChanged called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2022-06-09 14:37:41,714 INFO  ExportPropertyManager.cs: 422 - Configuration saved
+2022-06-09 14:37:44,822 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1.SLDASM
+2022-06-09 14:37:44,826 INFO  ExportHelperExtension.cs: 1136 - Found 93 in Assem1.SLDASM
+2022-06-09 14:37:44,827 INFO  ExportHelperExtension.cs: 1145 - Found 1 features of type [CoordSys] in Assem1.SLDASM
+2022-06-09 14:37:44,827 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:37:44,827 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:37:44,827 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base-1
+2022-06-09 14:37:44,828 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:37:44,828 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base-1
+2022-06-09 14:37:44,828 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo2_link-1
+2022-06-09 14:37:44,829 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:37:44,829 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo2_link-1
+2022-06-09 14:37:44,835 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo1_link-1
+2022-06-09 14:37:44,922 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:37:44,923 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo1_link-1
+2022-06-09 14:37:44,923 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-2
+2022-06-09 14:37:44,924 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:37:44,924 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-2
+2022-06-09 14:37:44,925 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-2
+2022-06-09 14:37:44,925 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:37:44,926 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-2
+2022-06-09 14:37:44,926 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1_left-1
+2022-06-09 14:37:44,926 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:37:44,927 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1_left-1
+2022-06-09 14:37:44,927 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-1
+2022-06-09 14:37:44,927 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:37:44,928 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-1
+2022-06-09 14:37:44,928 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-1
+2022-06-09 14:37:44,929 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:37:44,929 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-1
+2022-06-09 14:37:44,929 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from BreadBoard Large-1
+2022-06-09 14:37:44,930 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:37:44,930 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in BreadBoard Large-1
+2022-06-09 14:37:44,931 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link1-1
+2022-06-09 14:37:44,931 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:37:44,931 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link1-1
+2022-06-09 14:37:44,932 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-3
+2022-06-09 14:37:44,932 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:37:44,933 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-3
+2022-06-09 14:37:44,933 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1-2
+2022-06-09 14:37:44,933 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:37:44,934 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1-2
+2022-06-09 14:37:44,934 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link-1
+2022-06-09 14:37:44,935 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:37:44,935 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link-1
+2022-06-09 14:37:44,935 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-2
+2022-06-09 14:37:44,936 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:37:44,936 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-2
+2022-06-09 14:37:44,936 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-2
+2022-06-09 14:37:44,937 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:37:44,937 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-2
+2022-06-09 14:37:44,938 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-2
+2022-06-09 14:37:44,938 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:37:44,938 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-2
+2022-06-09 14:37:44,939 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-1
+2022-06-09 14:37:44,939 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:37:44,940 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-1
+2022-06-09 14:37:44,940 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-3
+2022-06-09 14:37:44,940 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:37:44,941 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-3
+2022-06-09 14:37:44,941 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from raspberry_carte-1
+2022-06-09 14:37:44,941 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:37:44,942 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in raspberry_carte-1
+2022-06-09 14:37:44,942 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1.SLDASM
+2022-06-09 14:37:44,943 INFO  ExportHelperExtension.cs: 1136 - Found 93 in Assem1.SLDASM
+2022-06-09 14:37:44,943 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Assem1.SLDASM
+2022-06-09 14:37:44,944 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:37:44,944 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:37:44,944 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base-1
+2022-06-09 14:37:44,945 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:37:44,945 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base-1
+2022-06-09 14:37:44,945 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo2_link-1
+2022-06-09 14:37:44,946 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:37:44,946 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo2_link-1
+2022-06-09 14:37:44,947 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo1_link-1
+2022-06-09 14:37:44,947 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:37:44,947 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo1_link-1
+2022-06-09 14:37:44,948 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-2
+2022-06-09 14:37:44,948 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:37:44,949 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-2
+2022-06-09 14:37:44,949 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-2
+2022-06-09 14:37:44,949 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:37:44,950 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-2
+2022-06-09 14:37:44,950 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1_left-1
+2022-06-09 14:37:44,951 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:37:44,951 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1_left-1
+2022-06-09 14:37:44,951 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-1
+2022-06-09 14:37:44,952 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:37:44,952 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-1
+2022-06-09 14:37:44,952 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-1
+2022-06-09 14:37:44,953 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:37:44,953 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-1
+2022-06-09 14:37:44,954 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from BreadBoard Large-1
+2022-06-09 14:37:44,954 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:37:44,954 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in BreadBoard Large-1
+2022-06-09 14:37:44,955 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link1-1
+2022-06-09 14:37:44,955 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:37:44,956 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link1-1
+2022-06-09 14:37:44,956 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-3
+2022-06-09 14:37:44,956 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:37:44,957 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-3
+2022-06-09 14:37:44,957 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1-2
+2022-06-09 14:37:44,957 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:37:44,958 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1-2
+2022-06-09 14:37:44,958 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link-1
+2022-06-09 14:37:44,959 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:37:44,959 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link-1
+2022-06-09 14:37:44,959 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-2
+2022-06-09 14:37:44,960 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:37:44,960 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-2
+2022-06-09 14:37:44,960 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-2
+2022-06-09 14:37:44,961 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:37:44,961 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-2
+2022-06-09 14:37:44,961 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-2
+2022-06-09 14:37:44,962 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:37:44,962 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-2
+2022-06-09 14:37:44,963 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-1
+2022-06-09 14:37:44,963 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:37:44,963 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-1
+2022-06-09 14:37:44,964 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-3
+2022-06-09 14:37:44,964 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:37:44,964 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-3
+2022-06-09 14:37:44,965 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from raspberry_carte-1
+2022-06-09 14:37:44,965 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:37:44,972 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in raspberry_carte-1
+2022-06-09 14:37:45,025 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2022-06-09 14:37:58,324 INFO  AssemblyExportForm.cs: 253 - Completing URDF export
+2022-06-09 14:37:58,335 INFO  ConfigurationSerialization.cs: 276 - URDF Configuration found
+<Link z:Id="i1" xmlns="http://schemas.datacontract.org/2004/07/SW2URDF" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><Attributes><Attribute z:Id="i2"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">base_link</Value></Attribute></Attributes><ChildElements><URDFElement z:Id="i3" i:type="Inertial"><Attributes/><ChildElements><URDFElement z:Id="i4" i:type="Origin"><Attributes><Attribute z:Id="i5"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i6"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i6"/><XYZAttribute z:Ref="i5"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i7" i:type="Mass"><Attributes><Attribute z:Id="i8"><AttributeType>value</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>mass</ElementName><required>false</required><ValueAttribute z:Ref="i8"/></URDFElement><URDFElement z:Id="i9" i:type="Inertia"><Attributes><Attribute z:Id="i10"><AttributeType>ixx</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i11"><AttributeType>ixy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i12"><AttributeType>ixz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i13"><AttributeType>iyy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i14"><AttributeType>iyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i15"><AttributeType>izz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>inertia</ElementName><required>false</required><IxxAttribute z:Ref="i10"/><IxyAttribute z:Ref="i11"/><IxzAttribute z:Ref="i12"/><IyyAttribute z:Ref="i13"/><IyzAttribute z:Ref="i14"/><IzzAttribute z:Ref="i15"/></URDFElement></ChildElements><ElementName>inertial</ElementName><required>false</required><Inertia z:Ref="i9"/><Mass z:Ref="i7"/><Origin z:Ref="i4"/></URDFElement><URDFElement z:Id="i16" i:type="Visual"><Attributes/><ChildElements><URDFElement z:Id="i17" i:type="Origin"><Attributes><Attribute z:Id="i18"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i19"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i19"/><XYZAttribute z:Ref="i18"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i20" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i21" i:type="Mesh"><Attributes><Attribute z:Id="i22"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i22"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i21"/></URDFElement><URDFElement z:Id="i23" i:type="Material"><Attributes><Attribute z:Id="i24"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements><URDFElement z:Id="i25" i:type="Color"><Attributes><Attribute z:Id="i26"><AttributeType>rgba</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>color</ElementName><required>false</required><RGBAAttribute z:Ref="i26"/></URDFElement><URDFElement z:Id="i27" i:type="Texture"><Attributes><Attribute z:Id="i28"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>texture</ElementName><required>false</required><FilenameAttribute z:Ref="i28"/><wFilename/></URDFElement></ChildElements><ElementName>material</ElementName><required>false</required><Color z:Ref="i25"/><NameAttribute z:Ref="i24"/><Texture z:Ref="i27"/></URDFElement></ChildElements><ElementName>visual</ElementName><required>false</required><Geometry z:Ref="i20"/><Material z:Ref="i23"/><Origin z:Ref="i17"/></URDFElement><URDFElement z:Id="i29" i:type="Collision"><Attributes/><ChildElements><URDFElement z:Id="i30" i:type="Origin"><Attributes><Attribute z:Id="i31"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i32"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i32"/><XYZAttribute z:Ref="i31"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i33" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i34" i:type="Mesh"><Attributes><Attribute z:Id="i35"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i35"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i34"/></URDFElement></ChildElements><ElementName>collision</ElementName><required>false</required><Geometry z:Ref="i33"/><Origin z:Ref="i30"/></URDFElement><URDFElement z:Id="i36" i:type="Joint"><Attributes><Attribute z:Id="i37"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute><Attribute z:Id="i38"><AttributeType>type</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements><URDFElement z:Id="i39" i:type="Origin"><Attributes><Attribute z:Id="i40"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i41"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i41"/><XYZAttribute z:Ref="i40"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i42" i:type="ParentLink"><Attributes><Attribute z:Id="i43"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>parent</ElementName><required>true</required><NameAttribute z:Ref="i43"/></URDFElement><URDFElement z:Id="i44" i:type="ChildLink"><Attributes><Attribute z:Id="i45"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>child</ElementName><required>true</required><NameAttribute z:Ref="i45"/></URDFElement><URDFElement z:Id="i46" i:type="Axis"><Attributes><Attribute z:Id="i47"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>axis</ElementName><required>false</required><XYZAttribute z:Ref="i47"/></URDFElement><URDFElement z:Id="i48" i:type="Limit"><Attributes><Attribute z:Id="i49"><AttributeType>lower</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i50"><AttributeType>upper</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i51"><AttributeType>effort</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i52"><AttributeType>velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>limit</ElementName><required>false</required><EffortAttribute z:Ref="i51"/><LowerAttribute z:Ref="i49"/><UpperAttribute z:Ref="i50"/><VelocityAttribute z:Ref="i52"/></URDFElement><URDFElement z:Id="i53" i:type="Calibration"><Attributes><Attribute z:Id="i54"><AttributeType>rising</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i55"><AttributeType>falling</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>calibration</ElementName><required>false</required><FallingAttribute z:Ref="i55"/><RisingAttribute z:Ref="i54"/></URDFElement><URDFElement z:Id="i56" i:type="Dynamics"><Attributes><Attribute z:Id="i57"><AttributeType>damping</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i58"><AttributeType>friction</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>dynamics</ElementName><required>false</required><DampingAttribute z:Ref="i57"/><FrictionAttribute z:Ref="i58"/></URDFElement><URDFElement z:Id="i59" i:type="SafetyController"><Attributes><Attribute z:Id="i60"><AttributeType>soft_upper_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i61"><AttributeType>soft_lower_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i62"><AttributeType>k_position</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i63"><AttributeType>k_velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>safety_controller</ElementName><required>false</required><KPositionAttribute z:Ref="i62"/><KVelocityAttribute z:Ref="i63"/><SoftLowerAttribute z:Ref="i61"/><SoftUpperAttribute z:Ref="i60"/></URDFElement><URDFElement z:Id="i64" i:type="Mimic"><Attributes><Attribute z:Id="i65"><AttributeType>joint</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i66"><AttributeType>multiplier</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i67"><AttributeType>offset</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mimic</ElementName><required>false</required><JointNameAttribute z:Ref="i65"/><MultiplierAttribute z:Ref="i66"/><OffsetAttribute z:Ref="i67"/></URDFElement></ChildElements><ElementName>joint</ElementName><required>false</required><Axis z:Ref="i46"/><AxisName/><Calibration z:Ref="i53"/><Child z:Ref="i44"/><CoordinateSystemName>Automatically Generate</CoordinateSystemName><Dynamics z:Ref="i56"/><Limit z:Ref="i48"/><Mimic z:Ref="i64"/><NameAttribute z:Ref="i37"/><Origin z:Ref="i39"/><Parent z:Ref="i42"/><Safety z:Ref="i59"/><TypeAttribute z:Ref="i38"/></URDFElement></ChildElements><ElementName>link</ElementName><required>true</required><Children/><Collision z:Ref="i29"/><Inertial z:Ref="i3"/><Joint z:Ref="i36"/><NameAttribute z:Ref="i2"/><Parent i:nil="true"/><STLQualityFine>false</STLQualityFine><SWComponentPIDs xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:base64Binary>yDIAAAUAAAD//v8NYgBhAHMAZQAtADEAQABBAHMAcwBlAG0AMQAEAAAAEAAAAAEAAAABAAAAFQAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8UcwBlAHIAdgBvAF8AbQBvAHQAbwByAC0AMQBAAEEAcwBzAGUAbQAxAAQAAAAQAAAAAQAAAAEAAAC6AAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8UcwBlAHIAdgBvADIAXwBsAGkAbgBrAC0AMQBAAEEAcwBzAGUAbQAxAAQAAAAQAAAAAQAAAAEAAADGAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8UcwBlAHIAdgBvAF8AbQBvAHQAbwByAC0AMgBAAEEAcwBzAGUAbQAxAAQAAAAQAAAAAQAAAAEAAADKAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8UcwBlAHIAdgBvADEAXwBsAGkAbgBrAC0AMQBAAEEAcwBzAGUAbQAxAAQAAAAQAAAAAQAAAAEAAADOAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8TcwBlAHIAcgB2AG8AXwBjAGEAcAAtADIAQABBAHMAcwBlAG0AMQAEAAAAEAAAAAEAAAABAAAAzwAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8TcwBlAHIAcgB2AG8AXwBjAGEAcAAtADEAQABBAHMAcwBlAG0AMQAEAAAAEAAAAAEAAAABAAAAwwAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8TYgBhAHMAZQBfAGwAaQBuAGsAMQAtADEAQABBAHMAcwBlAG0AMQAEAAAAEAAAAAEAAAABAAAAtgAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8SYgBhAHMAZQBfAGwAaQBuAGsALQAxAEAAQQBzAHMAZQBtADEABAAAABAAAAABAAAAAQAAALIAAAA=</a:base64Binary></SWComponentPIDs><SWMainComponentPID i:nil="true"/><Visual z:Ref="i16"/><isFixedFrame>false</isFixedFrame><isIncomplete>false</isIncomplete></Link>
+2022-06-09 14:38:04,539 INFO  AssemblyExportForm.cs: 309 - Saving URDF package to C:\Users\Bassam\Assem1.SLDASM
+2022-06-09 14:38:04,540 INFO  ExportHelper.cs: 147 - Beginning the export process
+2022-06-09 14:38:04,542 INFO  ExportHelper.cs: 153 - Creating package directories with name Assem1.SLDASM and save path C:\Users\Bassam
+2022-06-09 14:38:09,572 INFO  ExportHelper.cs: 162 - Creating CMakeLists.txt at C:\Users\Bassam\Assem1.SLDASM\CMakeLists.txt
+2022-06-09 14:38:09,574 INFO  ExportHelper.cs: 166 - Creating joint names config at C:\Users\Bassam\Assem1.SLDASM\config\joint_names_Assem1.SLDASM.yaml
+2022-06-09 14:38:09,574 INFO  ExportHelper.cs: 170 - Creating package.xml at C:\Users\Bassam\Assem1.SLDASM\package.xml
+2022-06-09 14:38:09,575 INFO  PackageXMLWriter.cs: 21 - Creating package.xml at C:\Users\Bassam\Assem1.SLDASM\package.xml
+2022-06-09 14:38:09,578 INFO  ExportHelper.cs: 177 - Creating RVIZ launch file in C:\Users\Bassam\Assem1.SLDASM\launch\
+2022-06-09 14:38:09,581 INFO  ExportHelper.cs: 182 - Creating Gazebo launch file in C:\Users\Bassam\Assem1.SLDASM\launch\
+2022-06-09 14:38:09,582 INFO  ExportHelper.cs: 187 - Saving existing STL preferences
+2022-06-09 14:38:09,582 INFO  ExportHelper.cs: 450 - Saving users preferences
+2022-06-09 14:38:09,583 INFO  ExportHelper.cs: 190 - Modifying STL preferences
+2022-06-09 14:38:09,584 INFO  ExportHelper.cs: 464 - Setting STL preferences
+2022-06-09 14:38:09,589 INFO  ExportHelper.cs: 196 - Found 0 hidden components 
+2022-06-09 14:38:09,589 INFO  ExportHelper.cs: 197 - Hiding all components
+2022-06-09 14:38:10,006 INFO  ExportHelper.cs: 204 - Beginning individual files export
+2022-06-09 14:38:10,009 INFO  ExportHelper.cs: 270 - Exporting link: base_link
+2022-06-09 14:38:10,010 INFO  ExportHelper.cs: 272 - Link base_link has 0 children
+2022-06-09 14:38:10,010 INFO  ExportHelper.cs: 317 - base_link: Exporting STL with coordinate frame Origin_global
+2022-06-09 14:38:10,011 INFO  ExportHelper.cs: 322 - base_link: Reference geometry name 
+2022-06-09 14:38:10,398 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\Bassam\Assem1.SLDASM\meshes\base_link.STL
+2022-06-09 14:38:11,442 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2022-06-09 14:38:11,443 INFO  ExportHelper.cs: 145 - Showing all components except previously hidden components
+2022-06-09 14:38:11,993 INFO  ExportHelper.cs: 145 - Resetting STL preferences
+2022-06-09 14:38:11,994 INFO  ExportHelper.cs: 478 - Returning STL preferences to user preferences
+2022-06-09 14:38:11,994 INFO  ExportHelper.cs: 228 - Writing URDF file to C:\Users\Bassam\Assem1.SLDASM\urdf\Assem1.SLDASM.urdf
+2022-06-09 14:38:12,051 INFO  CSVImportExport.cs: 32 - Writing CSV file C:\Users\Bassam\Assem1.SLDASM\urdf\Assem1.SLDASM.csv
+2022-06-09 14:38:12,071 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2022-06-09 14:38:12,072 INFO  ExportHelper.cs: 234 - Copying log file
+2022-06-09 14:38:12,075 INFO  ExportHelper.cs: 439 - Copying C:\Users\Bassam\sw2urdf_logs\sw2urdf.log to C:\Users\Bassam\Assem1.SLDASM\export.log
+2022-06-09 14:38:12,078 INFO  ExportHelper.cs: 237 - Resetting STL preferences
+2022-06-09 14:38:12,078 INFO  ExportHelper.cs: 478 - Returning STL preferences to user preferences
+2022-06-09 14:40:36,494 INFO  SwAddin.cs: 294 - Assembly export called for file Assem1.SLDASM
+2022-06-09 14:40:43,267 INFO  SwAddin.cs: 313 - Saving assembly
+2022-06-09 14:40:43,641 INFO  SwAddin.cs: 316 - Opening property manager
+2022-06-09 14:40:43,642 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1.SLDASM
+2022-06-09 14:40:43,643 INFO  ExportHelperExtension.cs: 1136 - Found 90 in Assem1.SLDASM
+2022-06-09 14:40:43,643 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Assem1.SLDASM
+2022-06-09 14:40:43,644 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:40:43,644 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:40:43,645 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-3
+2022-06-09 14:40:43,645 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:40:43,646 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-3
+2022-06-09 14:40:43,646 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base-1
+2022-06-09 14:40:43,647 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:40:43,648 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base-1
+2022-06-09 14:40:43,648 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1_left-1
+2022-06-09 14:40:43,649 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:40:43,649 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1_left-1
+2022-06-09 14:40:43,649 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-2
+2022-06-09 14:40:43,650 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:40:43,650 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-2
+2022-06-09 14:40:43,651 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-2
+2022-06-09 14:40:43,651 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:40:43,652 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-2
+2022-06-09 14:40:43,652 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-1
+2022-06-09 14:40:43,653 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:40:43,653 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-1
+2022-06-09 14:40:43,653 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link1-1
+2022-06-09 14:40:43,654 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:40:43,654 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link1-1
+2022-06-09 14:40:43,655 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link-1
+2022-06-09 14:40:43,655 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:40:43,656 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link-1
+2022-06-09 14:40:43,656 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1-2
+2022-06-09 14:40:43,657 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:40:43,657 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1-2
+2022-06-09 14:40:43,657 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-2
+2022-06-09 14:40:43,658 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:40:43,658 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-2
+2022-06-09 14:40:43,659 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-3
+2022-06-09 14:40:43,659 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:40:43,659 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-3
+2022-06-09 14:40:43,660 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo1_link-1
+2022-06-09 14:40:43,660 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:40:43,661 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo1_link-1
+2022-06-09 14:40:43,661 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from raspberry_carte-1
+2022-06-09 14:40:43,662 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:40:43,663 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in raspberry_carte-1
+2022-06-09 14:40:43,664 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo2_link-1
+2022-06-09 14:40:43,664 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:40:43,665 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo2_link-1
+2022-06-09 14:40:43,666 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from BreadBoard Large-1
+2022-06-09 14:40:43,666 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:40:43,667 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in BreadBoard Large-1
+2022-06-09 14:40:43,668 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-2
+2022-06-09 14:40:43,668 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:40:43,669 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-2
+2022-06-09 14:40:43,669 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-2
+2022-06-09 14:40:43,670 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:40:43,671 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-2
+2022-06-09 14:40:43,671 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-1
+2022-06-09 14:40:43,672 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:40:43,673 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-1
+2022-06-09 14:40:43,673 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-1
+2022-06-09 14:40:43,674 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:40:43,675 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-1
+2022-06-09 14:40:43,676 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1.SLDASM
+2022-06-09 14:40:43,676 INFO  ExportHelperExtension.cs: 1136 - Found 90 in Assem1.SLDASM
+2022-06-09 14:40:43,677 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Assem1.SLDASM
+2022-06-09 14:40:43,677 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:40:43,678 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:40:43,678 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-3
+2022-06-09 14:40:43,678 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:40:43,679 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-3
+2022-06-09 14:40:43,679 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base-1
+2022-06-09 14:40:43,679 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:40:43,681 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base-1
+2022-06-09 14:40:43,681 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1_left-1
+2022-06-09 14:40:43,681 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:40:43,681 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1_left-1
+2022-06-09 14:40:43,682 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-2
+2022-06-09 14:40:43,682 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:40:43,683 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-2
+2022-06-09 14:40:43,683 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-2
+2022-06-09 14:40:43,683 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:40:43,684 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-2
+2022-06-09 14:40:43,684 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-1
+2022-06-09 14:40:43,684 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:40:43,685 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-1
+2022-06-09 14:40:43,685 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link1-1
+2022-06-09 14:40:43,686 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:40:43,686 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link1-1
+2022-06-09 14:40:43,686 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link-1
+2022-06-09 14:40:43,687 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:40:43,687 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link-1
+2022-06-09 14:40:43,688 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1-2
+2022-06-09 14:40:43,688 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:40:43,688 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1-2
+2022-06-09 14:40:43,689 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-2
+2022-06-09 14:40:43,689 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:40:43,689 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-2
+2022-06-09 14:40:43,692 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-3
+2022-06-09 14:40:43,730 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:40:43,731 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-3
+2022-06-09 14:40:43,731 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo1_link-1
+2022-06-09 14:40:43,731 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:40:43,731 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo1_link-1
+2022-06-09 14:40:43,732 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from raspberry_carte-1
+2022-06-09 14:40:43,732 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:40:43,733 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in raspberry_carte-1
+2022-06-09 14:40:43,733 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo2_link-1
+2022-06-09 14:40:43,733 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:40:43,734 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo2_link-1
+2022-06-09 14:40:43,734 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from BreadBoard Large-1
+2022-06-09 14:40:43,734 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:40:43,735 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in BreadBoard Large-1
+2022-06-09 14:40:43,735 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-2
+2022-06-09 14:40:43,735 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:40:43,736 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-2
+2022-06-09 14:40:43,736 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-2
+2022-06-09 14:40:43,737 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:40:43,737 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-2
+2022-06-09 14:40:43,737 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-1
+2022-06-09 14:40:43,738 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:40:43,739 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-1
+2022-06-09 14:40:43,739 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-1
+2022-06-09 14:40:43,740 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:40:43,741 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-1
+2022-06-09 14:40:44,534 INFO  SwAddin.cs: 339 - Loading config tree
+2022-06-09 14:40:44,535 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2022-06-09 14:40:44,538 INFO  SwAddin.cs: 344 - Showing property manager
+2022-06-09 14:42:05,623 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2022-06-09 14:42:19,701 INFO  SwAddin.cs: 294 - Assembly export called for file Assem1.SLDASM
+2022-06-09 14:42:21,610 INFO  SwAddin.cs: 313 - Saving assembly
+2022-06-09 14:42:21,942 INFO  SwAddin.cs: 316 - Opening property manager
+2022-06-09 14:42:21,943 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1.SLDASM
+2022-06-09 14:42:21,944 INFO  ExportHelperExtension.cs: 1136 - Found 90 in Assem1.SLDASM
+2022-06-09 14:42:21,945 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in Assem1.SLDASM
+2022-06-09 14:42:21,945 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:42:21,946 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:42:21,946 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-3
+2022-06-09 14:42:21,947 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:42:21,947 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-3
+2022-06-09 14:42:21,948 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base-1
+2022-06-09 14:42:21,948 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:42:21,949 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base-1
+2022-06-09 14:42:21,949 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1_left-1
+2022-06-09 14:42:21,950 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:42:21,951 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1_left-1
+2022-06-09 14:42:21,952 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-2
+2022-06-09 14:42:21,952 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:42:21,953 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-2
+2022-06-09 14:42:21,953 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-2
+2022-06-09 14:42:22,003 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:42:22,004 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-2
+2022-06-09 14:42:22,004 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-1
+2022-06-09 14:42:22,004 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:42:22,005 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-1
+2022-06-09 14:42:22,005 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link1-1
+2022-06-09 14:42:22,005 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:42:22,006 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link1-1
+2022-06-09 14:42:22,006 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link-1
+2022-06-09 14:42:22,007 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:42:22,008 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link-1
+2022-06-09 14:42:22,008 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1-2
+2022-06-09 14:42:22,008 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:42:22,009 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1-2
+2022-06-09 14:42:22,009 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-2
+2022-06-09 14:42:22,009 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:42:22,010 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-2
+2022-06-09 14:42:22,010 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-3
+2022-06-09 14:42:22,010 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:42:22,011 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-3
+2022-06-09 14:42:22,011 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo1_link-1
+2022-06-09 14:42:22,012 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:42:22,012 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo1_link-1
+2022-06-09 14:42:22,012 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from raspberry_carte-1
+2022-06-09 14:42:22,013 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:42:22,013 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in raspberry_carte-1
+2022-06-09 14:42:22,013 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo2_link-1
+2022-06-09 14:42:22,014 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:42:22,014 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo2_link-1
+2022-06-09 14:42:22,015 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from BreadBoard Large-1
+2022-06-09 14:42:22,015 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:42:22,016 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in BreadBoard Large-1
+2022-06-09 14:42:22,016 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-2
+2022-06-09 14:42:22,017 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:42:22,017 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-2
+2022-06-09 14:42:22,017 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-2
+2022-06-09 14:42:22,018 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:42:22,018 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-2
+2022-06-09 14:42:22,019 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-1
+2022-06-09 14:42:22,019 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:42:22,019 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-1
+2022-06-09 14:42:22,020 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-1
+2022-06-09 14:42:22,020 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:42:22,020 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-1
+2022-06-09 14:42:22,021 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1.SLDASM
+2022-06-09 14:42:22,021 INFO  ExportHelperExtension.cs: 1136 - Found 90 in Assem1.SLDASM
+2022-06-09 14:42:22,022 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in Assem1.SLDASM
+2022-06-09 14:42:22,022 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:42:22,022 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:42:22,023 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-3
+2022-06-09 14:42:22,023 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:42:22,024 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-3
+2022-06-09 14:42:22,024 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base-1
+2022-06-09 14:42:22,025 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:42:22,025 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base-1
+2022-06-09 14:42:22,025 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1_left-1
+2022-06-09 14:42:22,026 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:42:22,026 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1_left-1
+2022-06-09 14:42:22,027 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-2
+2022-06-09 14:42:22,027 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:42:22,027 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-2
+2022-06-09 14:42:22,028 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-2
+2022-06-09 14:42:22,028 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:42:22,028 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-2
+2022-06-09 14:42:22,029 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-1
+2022-06-09 14:42:22,029 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:42:22,029 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-1
+2022-06-09 14:42:22,030 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link1-1
+2022-06-09 14:42:22,030 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:42:22,030 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link1-1
+2022-06-09 14:42:22,031 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link-1
+2022-06-09 14:42:22,031 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:42:22,031 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link-1
+2022-06-09 14:42:22,032 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1-2
+2022-06-09 14:42:22,032 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:42:22,032 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1-2
+2022-06-09 14:42:22,033 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-2
+2022-06-09 14:42:22,033 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:42:22,033 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-2
+2022-06-09 14:42:22,034 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-3
+2022-06-09 14:42:22,034 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:42:22,034 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-3
+2022-06-09 14:42:22,035 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo1_link-1
+2022-06-09 14:42:22,035 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:42:22,035 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo1_link-1
+2022-06-09 14:42:22,036 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from raspberry_carte-1
+2022-06-09 14:42:22,036 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:42:22,037 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in raspberry_carte-1
+2022-06-09 14:42:22,037 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo2_link-1
+2022-06-09 14:42:22,037 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:42:22,038 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo2_link-1
+2022-06-09 14:42:22,038 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from BreadBoard Large-1
+2022-06-09 14:42:22,038 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:42:22,039 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in BreadBoard Large-1
+2022-06-09 14:42:22,039 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-2
+2022-06-09 14:42:22,039 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:42:22,040 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-2
+2022-06-09 14:42:22,040 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-2
+2022-06-09 14:42:22,040 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:42:22,041 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-2
+2022-06-09 14:42:22,041 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-1
+2022-06-09 14:42:22,041 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:42:22,042 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-1
+2022-06-09 14:42:22,042 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-1
+2022-06-09 14:42:22,042 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:42:22,043 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-1
+2022-06-09 14:42:22,487 INFO  SwAddin.cs: 339 - Loading config tree
+2022-06-09 14:42:22,488 INFO  ExportPropertyManagerExtension.cs: 520 - Starting new configuration
+2022-06-09 14:42:22,490 INFO  SwAddin.cs: 344 - Showing property manager
+2022-06-09 14:42:29,179 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2022-06-09 14:43:05,877 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2022-06-09 14:43:18,329 INFO  ExportPropertyManager.cs: 1136 - OnNumberBoxTrackingCompleted called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2022-06-09 14:44:44,838 INFO  ExportPropertyManager.cs: 422 - Configuration saved
+2022-06-09 14:44:46,806 INFO  ExportHelperExtension.cs: 347 - Creating joint Link_1
+2022-06-09 14:44:46,812 INFO  ExportHelperExtension.cs: 1397 - Fixing components for base_link
+2022-06-09 14:44:46,813 INFO  ExportHelperExtension.cs: 1402 - Fixing 21
+2022-06-09 14:44:46,813 INFO  ExportHelperExtension.cs: 1409 - Component 21 is already fixed
+2022-06-09 14:44:47,389 INFO  ExportHelperExtension.cs: 832 - R1: 0, 0
+2022-06-09 14:44:47,390 INFO  ExportHelperExtension.cs: 841 - R2: 0, 0
+2022-06-09 14:44:47,390 INFO  ExportHelperExtension.cs: 849 - L1: 0
+2022-06-09 14:44:47,390 INFO  ExportHelperExtension.cs: 857 - L2: 0
+2022-06-09 14:44:48,575 WARN  ExportHelperExtension.cs: 351 - Creating joint from parent base_link to child Link_1 failed
+2022-06-09 14:44:48,587 INFO  ExportHelperExtension.cs: 347 - Creating joint Link_2
+2022-06-09 14:44:48,587 INFO  ExportHelperExtension.cs: 1397 - Fixing components for Link_1
+2022-06-09 14:44:48,588 INFO  ExportHelperExtension.cs: 1402 - Fixing 182
+2022-06-09 14:44:48,588 INFO  ExportHelperExtension.cs: 1402 - Fixing 178
+2022-06-09 14:44:48,588 INFO  ExportHelperExtension.cs: 1402 - Fixing 186
+2022-06-09 14:44:48,589 INFO  ExportHelperExtension.cs: 1402 - Fixing 21
+2022-06-09 14:44:48,589 INFO  ExportHelperExtension.cs: 1409 - Component 21 is already fixed
+2022-06-09 14:44:49,023 INFO  : 0 - R1: 1, System.__ComObject, 1, System.Double[]
+2022-06-09 14:44:49,031 INFO  ExportHelperExtension.cs: 841 - R2: 0, 0
+2022-06-09 14:44:49,032 INFO  ExportHelperExtension.cs: 849 - L1: 0
+2022-06-09 14:44:49,032 INFO  ExportHelperExtension.cs: 857 - L2: 0
+2022-06-09 14:44:49,126 INFO  ExportHelperExtension.cs: 1352 - Unfixing component 182
+2022-06-09 14:44:49,127 INFO  ExportHelperExtension.cs: 1352 - Unfixing component 178
+2022-06-09 14:44:49,127 INFO  ExportHelperExtension.cs: 1352 - Unfixing component 186
+2022-06-09 14:44:52,100 WARN  ExportHelperExtension.cs: 351 - Creating joint from parent Link_1 to child Link_2 failed
+2022-06-09 14:44:52,112 INFO  ExportHelperExtension.cs: 347 - Creating joint Link_3
+2022-06-09 14:44:52,113 INFO  ExportHelperExtension.cs: 1397 - Fixing components for Link_2
+2022-06-09 14:44:52,113 INFO  ExportHelperExtension.cs: 1402 - Fixing 195
+2022-06-09 14:44:52,114 INFO  ExportHelperExtension.cs: 1402 - Fixing 198
+2022-06-09 14:44:52,114 INFO  ExportHelperExtension.cs: 1402 - Fixing 202
+2022-06-09 14:44:52,114 INFO  ExportHelperExtension.cs: 1402 - Fixing 182
+2022-06-09 14:44:52,115 INFO  ExportHelperExtension.cs: 1402 - Fixing 178
+2022-06-09 14:44:52,115 INFO  ExportHelperExtension.cs: 1402 - Fixing 186
+2022-06-09 14:44:52,115 INFO  ExportHelperExtension.cs: 1402 - Fixing 21
+2022-06-09 14:44:52,115 INFO  ExportHelperExtension.cs: 1409 - Component 21 is already fixed
+2022-06-09 14:44:52,749 INFO  ExportHelperExtension.cs: 828 - R1: 1, System.__ComObject, 1, System.Double[]
+2022-06-09 14:44:52,750 INFO  ExportHelperExtension.cs: 841 - R2: 0, 0
+2022-06-09 14:44:52,750 INFO  ExportHelperExtension.cs: 849 - L1: 0
+2022-06-09 14:44:52,750 INFO  ExportHelperExtension.cs: 857 - L2: 0
+2022-06-09 14:44:52,751 INFO  ExportHelperExtension.cs: 1352 - Unfixing component 195
+2022-06-09 14:44:52,751 INFO  ExportHelperExtension.cs: 1352 - Unfixing component 198
+2022-06-09 14:44:52,751 INFO  ExportHelperExtension.cs: 1352 - Unfixing component 202
+2022-06-09 14:44:52,752 INFO  ExportHelperExtension.cs: 1352 - Unfixing component 182
+2022-06-09 14:44:52,752 INFO  ExportHelperExtension.cs: 1352 - Unfixing component 178
+2022-06-09 14:44:52,752 INFO  ExportHelperExtension.cs: 1352 - Unfixing component 186
+2022-06-09 14:44:55,454 WARN  ExportHelperExtension.cs: 351 - Creating joint from parent Link_2 to child Link_3 failed
+2022-06-09 14:44:55,547 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from Assem1.SLDASM
+2022-06-09 14:44:55,548 INFO  ExportHelperExtension.cs: 1136 - Found 98 in Assem1.SLDASM
+2022-06-09 14:44:55,549 INFO  ExportHelperExtension.cs: 1145 - Found 4 features of type [CoordSys] in Assem1.SLDASM
+2022-06-09 14:44:55,549 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:44:55,549 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:44:55,550 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-3
+2022-06-09 14:44:55,550 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:44:55,550 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-3
+2022-06-09 14:44:55,551 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base-1
+2022-06-09 14:44:55,551 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:44:55,552 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base-1
+2022-06-09 14:44:55,552 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1_left-1
+2022-06-09 14:44:55,552 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:44:55,553 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1_left-1
+2022-06-09 14:44:55,553 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-2
+2022-06-09 14:44:55,553 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:44:55,554 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-2
+2022-06-09 14:44:55,554 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder-2
+2022-06-09 14:44:55,554 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:44:55,555 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder-2
+2022-06-09 14:44:55,555 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-1
+2022-06-09 14:44:55,556 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:44:55,556 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-1
+2022-06-09 14:44:55,556 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link1-1
+2022-06-09 14:44:55,557 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:44:55,557 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link1-1
+2022-06-09 14:44:55,557 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from base_link-1
+2022-06-09 14:44:55,558 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:44:55,558 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in base_link-1
+2022-06-09 14:44:55,559 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder1-2
+2022-06-09 14:44:55,559 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:44:55,559 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder1-2
+2022-06-09 14:44:55,563 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from wheel-2
+2022-06-09 14:44:55,591 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:44:55,592 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in wheel-2
+2022-06-09 14:44:55,592 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from encoder_holder2-3
+2022-06-09 14:44:55,592 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:44:55,593 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in encoder_holder2-3
+2022-06-09 14:44:55,593 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo1_link-1
+2022-06-09 14:44:55,594 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:44:55,594 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo1_link-1
+2022-06-09 14:44:55,594 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from raspberry_carte-1
+2022-06-09 14:44:55,595 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:44:55,595 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in raspberry_carte-1
+2022-06-09 14:44:55,596 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo2_link-1
+2022-06-09 14:44:55,596 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:44:55,596 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo2_link-1
+2022-06-09 14:44:55,597 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from BreadBoard Large-1
+2022-06-09 14:44:55,597 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:44:55,598 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in BreadBoard Large-1
+2022-06-09 14:44:55,598 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-2
+2022-06-09 14:44:55,598 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:44:55,599 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-2
+2022-06-09 14:44:55,599 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-2
+2022-06-09 14:44:55,599 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:44:55,600 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-2
+2022-06-09 14:44:55,600 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from serrvo_cap-1
+2022-06-09 14:44:55,601 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:44:55,601 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in serrvo_cap-1
+2022-06-09 14:44:55,601 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [CoordSys] from servo_motor-1
+2022-06-09 14:44:55,602 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:44:55,602 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [CoordSys] in servo_motor-1
+2022-06-09 14:44:55,602 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from Assem1.SLDASM
+2022-06-09 14:44:55,603 INFO  ExportHelperExtension.cs: 1136 - Found 98 in Assem1.SLDASM
+2022-06-09 14:44:55,603 INFO  ExportHelperExtension.cs: 1145 - Found 2 features of type [RefAxis] in Assem1.SLDASM
+2022-06-09 14:44:55,604 INFO  ExportHelperExtension.cs: 1148 - Proceeding through assembly components
+2022-06-09 14:44:55,604 INFO  ExportHelperExtension.cs: 1160 - 19 components to check
+2022-06-09 14:44:55,604 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-3
+2022-06-09 14:44:55,605 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-3
+2022-06-09 14:44:55,605 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-3
+2022-06-09 14:44:55,605 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base-1
+2022-06-09 14:44:55,606 INFO  ExportHelperExtension.cs: 1136 - Found 34 in base-1
+2022-06-09 14:44:55,606 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base-1
+2022-06-09 14:44:55,607 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1_left-1
+2022-06-09 14:44:55,607 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1_left-1
+2022-06-09 14:44:55,607 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1_left-1
+2022-06-09 14:44:55,608 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-2
+2022-06-09 14:44:55,608 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-2
+2022-06-09 14:44:55,608 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-2
+2022-06-09 14:44:55,609 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder-2
+2022-06-09 14:44:55,609 INFO  ExportHelperExtension.cs: 1136 - Found 37 in encoder-2
+2022-06-09 14:44:55,609 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder-2
+2022-06-09 14:44:55,610 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-1
+2022-06-09 14:44:55,610 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-1
+2022-06-09 14:44:55,611 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-1
+2022-06-09 14:44:55,611 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link1-1
+2022-06-09 14:44:55,611 INFO  ExportHelperExtension.cs: 1136 - Found 27 in base_link1-1
+2022-06-09 14:44:55,612 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link1-1
+2022-06-09 14:44:55,612 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from base_link-1
+2022-06-09 14:44:55,612 INFO  ExportHelperExtension.cs: 1136 - Found 29 in base_link-1
+2022-06-09 14:44:55,613 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in base_link-1
+2022-06-09 14:44:55,613 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder1-2
+2022-06-09 14:44:55,613 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder1-2
+2022-06-09 14:44:55,614 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder1-2
+2022-06-09 14:44:55,614 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from wheel-2
+2022-06-09 14:44:55,614 INFO  ExportHelperExtension.cs: 1136 - Found 38 in wheel-2
+2022-06-09 14:44:55,615 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in wheel-2
+2022-06-09 14:44:55,615 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from encoder_holder2-3
+2022-06-09 14:44:55,616 INFO  ExportHelperExtension.cs: 1136 - Found 26 in encoder_holder2-3
+2022-06-09 14:44:55,616 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in encoder_holder2-3
+2022-06-09 14:44:55,616 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo1_link-1
+2022-06-09 14:44:55,617 INFO  ExportHelperExtension.cs: 1136 - Found 28 in servo1_link-1
+2022-06-09 14:44:55,617 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo1_link-1
+2022-06-09 14:44:55,617 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from raspberry_carte-1
+2022-06-09 14:44:55,618 INFO  ExportHelperExtension.cs: 1136 - Found 47 in raspberry_carte-1
+2022-06-09 14:44:55,618 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in raspberry_carte-1
+2022-06-09 14:44:55,619 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo2_link-1
+2022-06-09 14:44:55,619 INFO  ExportHelperExtension.cs: 1136 - Found 31 in servo2_link-1
+2022-06-09 14:44:55,619 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo2_link-1
+2022-06-09 14:44:55,620 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from BreadBoard Large-1
+2022-06-09 14:44:55,620 INFO  ExportHelperExtension.cs: 1136 - Found 49 in BreadBoard Large-1
+2022-06-09 14:44:55,621 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in BreadBoard Large-1
+2022-06-09 14:44:55,621 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-2
+2022-06-09 14:44:55,621 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-2
+2022-06-09 14:44:55,622 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-2
+2022-06-09 14:44:55,622 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-2
+2022-06-09 14:44:55,622 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-2
+2022-06-09 14:44:55,622 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-2
+2022-06-09 14:44:55,622 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from serrvo_cap-1
+2022-06-09 14:44:55,622 INFO  ExportHelperExtension.cs: 1136 - Found 30 in serrvo_cap-1
+2022-06-09 14:44:55,623 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in serrvo_cap-1
+2022-06-09 14:44:55,623 INFO  ExportHelperExtension.cs: 1125 - Retrieving features of type [RefAxis] from servo_motor-1
+2022-06-09 14:44:55,624 INFO  ExportHelperExtension.cs: 1136 - Found 39 in servo_motor-1
+2022-06-09 14:44:55,624 INFO  ExportHelperExtension.cs: 1145 - Found 0 features of type [RefAxis] in servo_motor-1
+2022-06-09 14:44:55,679 INFO  ExportPropertyManager.cs: 1142 - AfterClose called. This method no longer throws an Exception. It just silently does nothing. Ok, except for this logging message
+2022-06-09 14:52:19,144 INFO  AssemblyExportForm.cs: 253 - Completing URDF export
+2022-06-09 14:52:19,146 INFO  ConfigurationSerialization.cs: 276 - URDF Configuration found
+<Link z:Id="i1" xmlns="http://schemas.datacontract.org/2004/07/SW2URDF" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/"><Attributes><Attribute z:Id="i2"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">base_link</Value></Attribute></Attributes><ChildElements><URDFElement z:Id="i3" i:type="Inertial"><Attributes/><ChildElements><URDFElement z:Id="i4" i:type="Origin"><Attributes><Attribute z:Id="i5"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i6"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i6"/><XYZAttribute z:Ref="i5"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i7" i:type="Mass"><Attributes><Attribute z:Id="i8"><AttributeType>value</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>mass</ElementName><required>false</required><ValueAttribute z:Ref="i8"/></URDFElement><URDFElement z:Id="i9" i:type="Inertia"><Attributes><Attribute z:Id="i10"><AttributeType>ixx</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i11"><AttributeType>ixy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i12"><AttributeType>ixz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i13"><AttributeType>iyy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i14"><AttributeType>iyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i15"><AttributeType>izz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>inertia</ElementName><required>false</required><IxxAttribute z:Ref="i10"/><IxyAttribute z:Ref="i11"/><IxzAttribute z:Ref="i12"/><IyyAttribute z:Ref="i13"/><IyzAttribute z:Ref="i14"/><IzzAttribute z:Ref="i15"/></URDFElement></ChildElements><ElementName>inertial</ElementName><required>false</required><Inertia z:Ref="i9"/><Mass z:Ref="i7"/><Origin z:Ref="i4"/></URDFElement><URDFElement z:Id="i16" i:type="Visual"><Attributes/><ChildElements><URDFElement z:Id="i17" i:type="Origin"><Attributes><Attribute z:Id="i18"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i19"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i19"/><XYZAttribute z:Ref="i18"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i20" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i21" i:type="Mesh"><Attributes><Attribute z:Id="i22"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i22"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i21"/></URDFElement><URDFElement z:Id="i23" i:type="Material"><Attributes><Attribute z:Id="i24"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements><URDFElement z:Id="i25" i:type="Color"><Attributes><Attribute z:Id="i26"><AttributeType>rgba</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>color</ElementName><required>false</required><RGBAAttribute z:Ref="i26"/></URDFElement><URDFElement z:Id="i27" i:type="Texture"><Attributes><Attribute z:Id="i28"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>texture</ElementName><required>false</required><FilenameAttribute z:Ref="i28"/><wFilename/></URDFElement></ChildElements><ElementName>material</ElementName><required>false</required><Color z:Ref="i25"/><NameAttribute z:Ref="i24"/><Texture z:Ref="i27"/></URDFElement></ChildElements><ElementName>visual</ElementName><required>false</required><Geometry z:Ref="i20"/><Material z:Ref="i23"/><Origin z:Ref="i17"/></URDFElement><URDFElement z:Id="i29" i:type="Collision"><Attributes/><ChildElements><URDFElement z:Id="i30" i:type="Origin"><Attributes><Attribute z:Id="i31"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i32"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i32"/><XYZAttribute z:Ref="i31"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i33" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i34" i:type="Mesh"><Attributes><Attribute z:Id="i35"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i35"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i34"/></URDFElement></ChildElements><ElementName>collision</ElementName><required>false</required><Geometry z:Ref="i33"/><Origin z:Ref="i30"/></URDFElement><URDFElement z:Id="i36" i:type="Joint"><Attributes><Attribute z:Id="i37"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute><Attribute z:Id="i38"><AttributeType>type</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements><URDFElement z:Id="i39" i:type="Origin"><Attributes><Attribute z:Id="i40"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i41"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i41"/><XYZAttribute z:Ref="i40"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i42" i:type="ParentLink"><Attributes><Attribute z:Id="i43"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>parent</ElementName><required>true</required><NameAttribute z:Ref="i43"/></URDFElement><URDFElement z:Id="i44" i:type="ChildLink"><Attributes><Attribute z:Id="i45"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>child</ElementName><required>true</required><NameAttribute z:Ref="i45"/></URDFElement><URDFElement z:Id="i46" i:type="Axis"><Attributes><Attribute z:Id="i47"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>axis</ElementName><required>false</required><XYZAttribute z:Ref="i47"/></URDFElement><URDFElement z:Id="i48" i:type="Limit"><Attributes><Attribute z:Id="i49"><AttributeType>lower</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i50"><AttributeType>upper</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i51"><AttributeType>effort</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i52"><AttributeType>velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>limit</ElementName><required>false</required><EffortAttribute z:Ref="i51"/><LowerAttribute z:Ref="i49"/><UpperAttribute z:Ref="i50"/><VelocityAttribute z:Ref="i52"/></URDFElement><URDFElement z:Id="i53" i:type="Calibration"><Attributes><Attribute z:Id="i54"><AttributeType>rising</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i55"><AttributeType>falling</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>calibration</ElementName><required>false</required><FallingAttribute z:Ref="i55"/><RisingAttribute z:Ref="i54"/></URDFElement><URDFElement z:Id="i56" i:type="Dynamics"><Attributes><Attribute z:Id="i57"><AttributeType>damping</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i58"><AttributeType>friction</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>dynamics</ElementName><required>false</required><DampingAttribute z:Ref="i57"/><FrictionAttribute z:Ref="i58"/></URDFElement><URDFElement z:Id="i59" i:type="SafetyController"><Attributes><Attribute z:Id="i60"><AttributeType>soft_upper_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i61"><AttributeType>soft_lower_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i62"><AttributeType>k_position</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i63"><AttributeType>k_velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>safety_controller</ElementName><required>false</required><KPositionAttribute z:Ref="i62"/><KVelocityAttribute z:Ref="i63"/><SoftLowerAttribute z:Ref="i61"/><SoftUpperAttribute z:Ref="i60"/></URDFElement><URDFElement z:Id="i64" i:type="Mimic"><Attributes><Attribute z:Id="i65"><AttributeType>joint</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i66"><AttributeType>multiplier</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i67"><AttributeType>offset</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mimic</ElementName><required>false</required><JointNameAttribute z:Ref="i65"/><MultiplierAttribute z:Ref="i66"/><OffsetAttribute z:Ref="i67"/></URDFElement></ChildElements><ElementName>joint</ElementName><required>false</required><Axis z:Ref="i46"/><AxisName/><Calibration z:Ref="i53"/><Child z:Ref="i44"/><CoordinateSystemName>Automatically Generate</CoordinateSystemName><Dynamics z:Ref="i56"/><Limit z:Ref="i48"/><Mimic z:Ref="i64"/><NameAttribute z:Ref="i37"/><Origin z:Ref="i39"/><Parent z:Ref="i42"/><Safety z:Ref="i59"/><TypeAttribute z:Ref="i38"/></URDFElement></ChildElements><ElementName>link</ElementName><required>true</required><Children><Link z:Id="i68"><Attributes><Attribute z:Id="i69"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">Link_1</Value></Attribute></Attributes><ChildElements><URDFElement z:Id="i70" i:type="Inertial"><Attributes/><ChildElements><URDFElement z:Id="i71" i:type="Origin"><Attributes><Attribute z:Id="i72"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i73"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i73"/><XYZAttribute z:Ref="i72"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i74" i:type="Mass"><Attributes><Attribute z:Id="i75"><AttributeType>value</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>mass</ElementName><required>false</required><ValueAttribute z:Ref="i75"/></URDFElement><URDFElement z:Id="i76" i:type="Inertia"><Attributes><Attribute z:Id="i77"><AttributeType>ixx</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i78"><AttributeType>ixy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i79"><AttributeType>ixz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i80"><AttributeType>iyy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i81"><AttributeType>iyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i82"><AttributeType>izz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>inertia</ElementName><required>false</required><IxxAttribute z:Ref="i77"/><IxyAttribute z:Ref="i78"/><IxzAttribute z:Ref="i79"/><IyyAttribute z:Ref="i80"/><IyzAttribute z:Ref="i81"/><IzzAttribute z:Ref="i82"/></URDFElement></ChildElements><ElementName>inertial</ElementName><required>false</required><Inertia z:Ref="i76"/><Mass z:Ref="i74"/><Origin z:Ref="i71"/></URDFElement><URDFElement z:Id="i83" i:type="Visual"><Attributes/><ChildElements><URDFElement z:Id="i84" i:type="Origin"><Attributes><Attribute z:Id="i85"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i86"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i86"/><XYZAttribute z:Ref="i85"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i87" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i88" i:type="Mesh"><Attributes><Attribute z:Id="i89"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i89"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i88"/></URDFElement><URDFElement z:Id="i90" i:type="Material"><Attributes><Attribute z:Id="i91"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements><URDFElement z:Id="i92" i:type="Color"><Attributes><Attribute z:Id="i93"><AttributeType>rgba</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>color</ElementName><required>false</required><RGBAAttribute z:Ref="i93"/></URDFElement><URDFElement z:Id="i94" i:type="Texture"><Attributes><Attribute z:Id="i95"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>texture</ElementName><required>false</required><FilenameAttribute z:Ref="i95"/><wFilename/></URDFElement></ChildElements><ElementName>material</ElementName><required>false</required><Color z:Ref="i92"/><NameAttribute z:Ref="i91"/><Texture z:Ref="i94"/></URDFElement></ChildElements><ElementName>visual</ElementName><required>false</required><Geometry z:Ref="i87"/><Material z:Ref="i90"/><Origin z:Ref="i84"/></URDFElement><URDFElement z:Id="i96" i:type="Collision"><Attributes/><ChildElements><URDFElement z:Id="i97" i:type="Origin"><Attributes><Attribute z:Id="i98"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i99"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i99"/><XYZAttribute z:Ref="i98"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i100" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i101" i:type="Mesh"><Attributes><Attribute z:Id="i102"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i102"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i101"/></URDFElement></ChildElements><ElementName>collision</ElementName><required>false</required><Geometry z:Ref="i100"/><Origin z:Ref="i97"/></URDFElement><URDFElement z:Id="i103" i:type="Joint"><Attributes><Attribute z:Id="i104"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">Base</Value></Attribute><Attribute z:Id="i105"><AttributeType>type</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">Automatically Detect</Value></Attribute></Attributes><ChildElements><URDFElement z:Id="i106" i:type="Origin"><Attributes><Attribute z:Id="i107"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i108"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i108"/><XYZAttribute z:Ref="i107"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i109" i:type="ParentLink"><Attributes><Attribute z:Id="i110"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>parent</ElementName><required>true</required><NameAttribute z:Ref="i110"/></URDFElement><URDFElement z:Id="i111" i:type="ChildLink"><Attributes><Attribute z:Id="i112"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>child</ElementName><required>true</required><NameAttribute z:Ref="i112"/></URDFElement><URDFElement z:Id="i113" i:type="Axis"><Attributes><Attribute z:Id="i114"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>axis</ElementName><required>false</required><XYZAttribute z:Ref="i114"/></URDFElement><URDFElement z:Id="i115" i:type="Limit"><Attributes><Attribute z:Id="i116"><AttributeType>lower</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i117"><AttributeType>upper</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i118"><AttributeType>effort</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i119"><AttributeType>velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>limit</ElementName><required>false</required><EffortAttribute z:Ref="i118"/><LowerAttribute z:Ref="i116"/><UpperAttribute z:Ref="i117"/><VelocityAttribute z:Ref="i119"/></URDFElement><URDFElement z:Id="i120" i:type="Calibration"><Attributes><Attribute z:Id="i121"><AttributeType>rising</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i122"><AttributeType>falling</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>calibration</ElementName><required>false</required><FallingAttribute z:Ref="i122"/><RisingAttribute z:Ref="i121"/></URDFElement><URDFElement z:Id="i123" i:type="Dynamics"><Attributes><Attribute z:Id="i124"><AttributeType>damping</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i125"><AttributeType>friction</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>dynamics</ElementName><required>false</required><DampingAttribute z:Ref="i124"/><FrictionAttribute z:Ref="i125"/></URDFElement><URDFElement z:Id="i126" i:type="SafetyController"><Attributes><Attribute z:Id="i127"><AttributeType>soft_upper_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i128"><AttributeType>soft_lower_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i129"><AttributeType>k_position</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i130"><AttributeType>k_velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>safety_controller</ElementName><required>false</required><KPositionAttribute z:Ref="i129"/><KVelocityAttribute z:Ref="i130"/><SoftLowerAttribute z:Ref="i128"/><SoftUpperAttribute z:Ref="i127"/></URDFElement><URDFElement z:Id="i131" i:type="Mimic"><Attributes><Attribute z:Id="i132"><AttributeType>joint</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i133"><AttributeType>multiplier</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i134"><AttributeType>offset</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mimic</ElementName><required>false</required><JointNameAttribute z:Ref="i132"/><MultiplierAttribute z:Ref="i133"/><OffsetAttribute z:Ref="i134"/></URDFElement></ChildElements><ElementName>joint</ElementName><required>false</required><Axis z:Ref="i113"/><AxisName>Automatically Generate</AxisName><Calibration z:Ref="i120"/><Child z:Ref="i111"/><CoordinateSystemName>Automatically Generate</CoordinateSystemName><Dynamics z:Ref="i123"/><Limit z:Ref="i115"/><Mimic z:Ref="i131"/><NameAttribute z:Ref="i104"/><Origin z:Ref="i106"/><Parent z:Ref="i109"/><Safety z:Ref="i126"/><TypeAttribute z:Ref="i105"/></URDFElement></ChildElements><ElementName>link</ElementName><required>true</required><Children><Link z:Id="i135"><Attributes><Attribute z:Id="i136"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">Link_2</Value></Attribute></Attributes><ChildElements><URDFElement z:Id="i137" i:type="Inertial"><Attributes/><ChildElements><URDFElement z:Id="i138" i:type="Origin"><Attributes><Attribute z:Id="i139"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i140"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i140"/><XYZAttribute z:Ref="i139"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i141" i:type="Mass"><Attributes><Attribute z:Id="i142"><AttributeType>value</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>mass</ElementName><required>false</required><ValueAttribute z:Ref="i142"/></URDFElement><URDFElement z:Id="i143" i:type="Inertia"><Attributes><Attribute z:Id="i144"><AttributeType>ixx</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i145"><AttributeType>ixy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i146"><AttributeType>ixz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i147"><AttributeType>iyy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i148"><AttributeType>iyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i149"><AttributeType>izz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>inertia</ElementName><required>false</required><IxxAttribute z:Ref="i144"/><IxyAttribute z:Ref="i145"/><IxzAttribute z:Ref="i146"/><IyyAttribute z:Ref="i147"/><IyzAttribute z:Ref="i148"/><IzzAttribute z:Ref="i149"/></URDFElement></ChildElements><ElementName>inertial</ElementName><required>false</required><Inertia z:Ref="i143"/><Mass z:Ref="i141"/><Origin z:Ref="i138"/></URDFElement><URDFElement z:Id="i150" i:type="Visual"><Attributes/><ChildElements><URDFElement z:Id="i151" i:type="Origin"><Attributes><Attribute z:Id="i152"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i153"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i153"/><XYZAttribute z:Ref="i152"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i154" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i155" i:type="Mesh"><Attributes><Attribute z:Id="i156"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i156"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i155"/></URDFElement><URDFElement z:Id="i157" i:type="Material"><Attributes><Attribute z:Id="i158"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements><URDFElement z:Id="i159" i:type="Color"><Attributes><Attribute z:Id="i160"><AttributeType>rgba</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>color</ElementName><required>false</required><RGBAAttribute z:Ref="i160"/></URDFElement><URDFElement z:Id="i161" i:type="Texture"><Attributes><Attribute z:Id="i162"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>texture</ElementName><required>false</required><FilenameAttribute z:Ref="i162"/><wFilename/></URDFElement></ChildElements><ElementName>material</ElementName><required>false</required><Color z:Ref="i159"/><NameAttribute z:Ref="i158"/><Texture z:Ref="i161"/></URDFElement></ChildElements><ElementName>visual</ElementName><required>false</required><Geometry z:Ref="i154"/><Material z:Ref="i157"/><Origin z:Ref="i151"/></URDFElement><URDFElement z:Id="i163" i:type="Collision"><Attributes/><ChildElements><URDFElement z:Id="i164" i:type="Origin"><Attributes><Attribute z:Id="i165"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i166"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i166"/><XYZAttribute z:Ref="i165"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i167" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i168" i:type="Mesh"><Attributes><Attribute z:Id="i169"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i169"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i168"/></URDFElement></ChildElements><ElementName>collision</ElementName><required>false</required><Geometry z:Ref="i167"/><Origin z:Ref="i164"/></URDFElement><URDFElement z:Id="i170" i:type="Joint"><Attributes><Attribute z:Id="i171"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">J1</Value></Attribute><Attribute z:Id="i172"><AttributeType>type</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">Automatically Detect</Value></Attribute></Attributes><ChildElements><URDFElement z:Id="i173" i:type="Origin"><Attributes><Attribute z:Id="i174"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i175"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i175"/><XYZAttribute z:Ref="i174"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i176" i:type="ParentLink"><Attributes><Attribute z:Id="i177"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>parent</ElementName><required>true</required><NameAttribute z:Ref="i177"/></URDFElement><URDFElement z:Id="i178" i:type="ChildLink"><Attributes><Attribute z:Id="i179"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>child</ElementName><required>true</required><NameAttribute z:Ref="i179"/></URDFElement><URDFElement z:Id="i180" i:type="Axis"><Attributes><Attribute z:Id="i181"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>axis</ElementName><required>false</required><XYZAttribute z:Ref="i181"/></URDFElement><URDFElement z:Id="i182" i:type="Limit"><Attributes><Attribute z:Id="i183"><AttributeType>lower</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i184"><AttributeType>upper</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i185"><AttributeType>effort</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i186"><AttributeType>velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>limit</ElementName><required>false</required><EffortAttribute z:Ref="i185"/><LowerAttribute z:Ref="i183"/><UpperAttribute z:Ref="i184"/><VelocityAttribute z:Ref="i186"/></URDFElement><URDFElement z:Id="i187" i:type="Calibration"><Attributes><Attribute z:Id="i188"><AttributeType>rising</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i189"><AttributeType>falling</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>calibration</ElementName><required>false</required><FallingAttribute z:Ref="i189"/><RisingAttribute z:Ref="i188"/></URDFElement><URDFElement z:Id="i190" i:type="Dynamics"><Attributes><Attribute z:Id="i191"><AttributeType>damping</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i192"><AttributeType>friction</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>dynamics</ElementName><required>false</required><DampingAttribute z:Ref="i191"/><FrictionAttribute z:Ref="i192"/></URDFElement><URDFElement z:Id="i193" i:type="SafetyController"><Attributes><Attribute z:Id="i194"><AttributeType>soft_upper_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i195"><AttributeType>soft_lower_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i196"><AttributeType>k_position</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i197"><AttributeType>k_velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>safety_controller</ElementName><required>false</required><KPositionAttribute z:Ref="i196"/><KVelocityAttribute z:Ref="i197"/><SoftLowerAttribute z:Ref="i195"/><SoftUpperAttribute z:Ref="i194"/></URDFElement><URDFElement z:Id="i198" i:type="Mimic"><Attributes><Attribute z:Id="i199"><AttributeType>joint</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i200"><AttributeType>multiplier</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i201"><AttributeType>offset</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mimic</ElementName><required>false</required><JointNameAttribute z:Ref="i199"/><MultiplierAttribute z:Ref="i200"/><OffsetAttribute z:Ref="i201"/></URDFElement></ChildElements><ElementName>joint</ElementName><required>false</required><Axis z:Ref="i180"/><AxisName>Automatically Generate</AxisName><Calibration z:Ref="i187"/><Child z:Ref="i178"/><CoordinateSystemName>Automatically Generate</CoordinateSystemName><Dynamics z:Ref="i190"/><Limit z:Ref="i182"/><Mimic z:Ref="i198"/><NameAttribute z:Ref="i171"/><Origin z:Ref="i173"/><Parent z:Ref="i176"/><Safety z:Ref="i193"/><TypeAttribute z:Ref="i172"/></URDFElement></ChildElements><ElementName>link</ElementName><required>true</required><Children><Link z:Id="i202"><Attributes><Attribute z:Id="i203"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">Link_3</Value></Attribute></Attributes><ChildElements><URDFElement z:Id="i204" i:type="Inertial"><Attributes/><ChildElements><URDFElement z:Id="i205" i:type="Origin"><Attributes><Attribute z:Id="i206"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i207"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i207"/><XYZAttribute z:Ref="i206"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i208" i:type="Mass"><Attributes><Attribute z:Id="i209"><AttributeType>value</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>mass</ElementName><required>false</required><ValueAttribute z:Ref="i209"/></URDFElement><URDFElement z:Id="i210" i:type="Inertia"><Attributes><Attribute z:Id="i211"><AttributeType>ixx</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i212"><AttributeType>ixy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i213"><AttributeType>ixz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i214"><AttributeType>iyy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i215"><AttributeType>iyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute><Attribute z:Id="i216"><AttributeType>izz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:double" xmlns:a="http://www.w3.org/2001/XMLSchema">0</Value></Attribute></Attributes><ChildElements/><ElementName>inertia</ElementName><required>false</required><IxxAttribute z:Ref="i211"/><IxyAttribute z:Ref="i212"/><IxzAttribute z:Ref="i213"/><IyyAttribute z:Ref="i214"/><IyzAttribute z:Ref="i215"/><IzzAttribute z:Ref="i216"/></URDFElement></ChildElements><ElementName>inertial</ElementName><required>false</required><Inertia z:Ref="i210"/><Mass z:Ref="i208"/><Origin z:Ref="i205"/></URDFElement><URDFElement z:Id="i217" i:type="Visual"><Attributes/><ChildElements><URDFElement z:Id="i218" i:type="Origin"><Attributes><Attribute z:Id="i219"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i220"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i220"/><XYZAttribute z:Ref="i219"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i221" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i222" i:type="Mesh"><Attributes><Attribute z:Id="i223"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i223"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i222"/></URDFElement><URDFElement z:Id="i224" i:type="Material"><Attributes><Attribute z:Id="i225"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements><URDFElement z:Id="i226" i:type="Color"><Attributes><Attribute z:Id="i227"><AttributeType>rgba</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double><a:double>1</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>color</ElementName><required>false</required><RGBAAttribute z:Ref="i227"/></URDFElement><URDFElement z:Id="i228" i:type="Texture"><Attributes><Attribute z:Id="i229"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>texture</ElementName><required>false</required><FilenameAttribute z:Ref="i229"/><wFilename/></URDFElement></ChildElements><ElementName>material</ElementName><required>false</required><Color z:Ref="i226"/><NameAttribute z:Ref="i225"/><Texture z:Ref="i228"/></URDFElement></ChildElements><ElementName>visual</ElementName><required>false</required><Geometry z:Ref="i221"/><Material z:Ref="i224"/><Origin z:Ref="i218"/></URDFElement><URDFElement z:Id="i230" i:type="Collision"><Attributes/><ChildElements><URDFElement z:Id="i231" i:type="Origin"><Attributes><Attribute z:Id="i232"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i233"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i233"/><XYZAttribute z:Ref="i232"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i234" i:type="Geometry"><Attributes/><ChildElements><URDFElement z:Id="i235" i:type="Mesh"><Attributes><Attribute z:Id="i236"><AttributeType>filename</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mesh</ElementName><required>false</required><FilenameAttribute z:Ref="i236"/></URDFElement></ChildElements><ElementName>geometry</ElementName><required>true</required><Mesh z:Ref="i235"/></URDFElement></ChildElements><ElementName>collision</ElementName><required>false</required><Geometry z:Ref="i234"/><Origin z:Ref="i231"/></URDFElement><URDFElement z:Id="i237" i:type="Joint"><Attributes><Attribute z:Id="i238"><AttributeType>name</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">J2</Value></Attribute><Attribute z:Id="i239"><AttributeType>type</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema">Automatically Detect</Value></Attribute></Attributes><ChildElements><URDFElement z:Id="i240" i:type="Origin"><Attributes><Attribute z:Id="i241"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute><Attribute z:Id="i242"><AttributeType>rpy</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>origin</ElementName><required>false</required><RPYAttribute z:Ref="i242"/><XYZAttribute z:Ref="i241"/><isCustomized>false</isCustomized></URDFElement><URDFElement z:Id="i243" i:type="ParentLink"><Attributes><Attribute z:Id="i244"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>parent</ElementName><required>true</required><NameAttribute z:Ref="i244"/></URDFElement><URDFElement z:Id="i245" i:type="ChildLink"><Attributes><Attribute z:Id="i246"><AttributeType>link</AttributeType><IsRequired>true</IsRequired><Value i:type="a:string" xmlns:a="http://www.w3.org/2001/XMLSchema"/></Attribute></Attributes><ChildElements/><ElementName>child</ElementName><required>true</required><NameAttribute z:Ref="i246"/></URDFElement><URDFElement z:Id="i247" i:type="Axis"><Attributes><Attribute z:Id="i248"><AttributeType>xyz</AttributeType><IsRequired>true</IsRequired><Value i:type="a:ArrayOfdouble" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:double>0</a:double><a:double>0</a:double><a:double>0</a:double></Value></Attribute></Attributes><ChildElements/><ElementName>axis</ElementName><required>false</required><XYZAttribute z:Ref="i248"/></URDFElement><URDFElement z:Id="i249" i:type="Limit"><Attributes><Attribute z:Id="i250"><AttributeType>lower</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i251"><AttributeType>upper</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i252"><AttributeType>effort</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i253"><AttributeType>velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>limit</ElementName><required>false</required><EffortAttribute z:Ref="i252"/><LowerAttribute z:Ref="i250"/><UpperAttribute z:Ref="i251"/><VelocityAttribute z:Ref="i253"/></URDFElement><URDFElement z:Id="i254" i:type="Calibration"><Attributes><Attribute z:Id="i255"><AttributeType>rising</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i256"><AttributeType>falling</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>calibration</ElementName><required>false</required><FallingAttribute z:Ref="i256"/><RisingAttribute z:Ref="i255"/></URDFElement><URDFElement z:Id="i257" i:type="Dynamics"><Attributes><Attribute z:Id="i258"><AttributeType>damping</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i259"><AttributeType>friction</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>dynamics</ElementName><required>false</required><DampingAttribute z:Ref="i258"/><FrictionAttribute z:Ref="i259"/></URDFElement><URDFElement z:Id="i260" i:type="SafetyController"><Attributes><Attribute z:Id="i261"><AttributeType>soft_upper_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i262"><AttributeType>soft_lower_limit</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i263"><AttributeType>k_position</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i264"><AttributeType>k_velocity</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>safety_controller</ElementName><required>false</required><KPositionAttribute z:Ref="i263"/><KVelocityAttribute z:Ref="i264"/><SoftLowerAttribute z:Ref="i262"/><SoftUpperAttribute z:Ref="i261"/></URDFElement><URDFElement z:Id="i265" i:type="Mimic"><Attributes><Attribute z:Id="i266"><AttributeType>joint</AttributeType><IsRequired>true</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i267"><AttributeType>multiplier</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute><Attribute z:Id="i268"><AttributeType>offset</AttributeType><IsRequired>false</IsRequired><Value i:nil="true"/></Attribute></Attributes><ChildElements/><ElementName>mimic</ElementName><required>false</required><JointNameAttribute z:Ref="i266"/><MultiplierAttribute z:Ref="i267"/><OffsetAttribute z:Ref="i268"/></URDFElement></ChildElements><ElementName>joint</ElementName><required>false</required><Axis z:Ref="i247"/><AxisName>Automatically Generate</AxisName><Calibration z:Ref="i254"/><Child z:Ref="i245"/><CoordinateSystemName>Automatically Generate</CoordinateSystemName><Dynamics z:Ref="i257"/><Limit z:Ref="i249"/><Mimic z:Ref="i265"/><NameAttribute z:Ref="i238"/><Origin z:Ref="i240"/><Parent z:Ref="i243"/><Safety z:Ref="i260"/><TypeAttribute z:Ref="i239"/></URDFElement></ChildElements><ElementName>link</ElementName><required>true</required><Children/><Collision z:Ref="i230"/><Inertial z:Ref="i204"/><Joint z:Ref="i237"/><NameAttribute z:Ref="i203"/><Parent z:Ref="i135"/><STLQualityFine>false</STLQualityFine><SWComponentPIDs xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:base64Binary>yDIAAAUAAAD//v8TcwBlAHIAcgB2AG8AXwBjAGEAcAAtADIAQABBAHMAcwBlAG0AMQAEAAAAEAAAAAEAAAABAAAAzwAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8UcwBlAHIAdgBvADEAXwBsAGkAbgBrAC0AMQBAAEEAcwBzAGUAbQAxAAQAAAAQAAAAAQAAAAEAAADOAAAA</a:base64Binary></SWComponentPIDs><SWMainComponentPID i:nil="true"/><Visual z:Ref="i217"/><isFixedFrame>false</isFixedFrame><isIncomplete>false</isIncomplete></Link></Children><Collision z:Ref="i163"/><Inertial z:Ref="i137"/><Joint z:Ref="i170"/><NameAttribute z:Ref="i136"/><Parent z:Ref="i68"/><STLQualityFine>false</STLQualityFine><SWComponentPIDs xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:base64Binary>yDIAAAUAAAD//v8TcwBlAHIAcgB2AG8AXwBjAGEAcAAtADEAQABBAHMAcwBlAG0AMQAEAAAAEAAAAAEAAAABAAAAwwAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8UcwBlAHIAdgBvADIAXwBsAGkAbgBrAC0AMQBAAEEAcwBzAGUAbQAxAAQAAAAQAAAAAQAAAAEAAADGAAAA</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8UcwBlAHIAdgBvAF8AbQBvAHQAbwByAC0AMgBAAEEAcwBzAGUAbQAxAAQAAAAQAAAAAQAAAAEAAADKAAAA</a:base64Binary></SWComponentPIDs><SWMainComponentPID i:nil="true"/><Visual z:Ref="i150"/><isFixedFrame>false</isFixedFrame><isIncomplete>false</isIncomplete></Link></Children><Collision z:Ref="i96"/><Inertial z:Ref="i70"/><Joint z:Ref="i103"/><NameAttribute z:Ref="i69"/><Parent z:Ref="i1"/><STLQualityFine>false</STLQualityFine><SWComponentPIDs xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:base64Binary>yDIAAAUAAAD//v8TYgBhAHMAZQBfAGwAaQBuAGsAMQAtADEAQABBAHMAcwBlAG0AMQAEAAAAEAAAAAEAAAABAAAAtgAAAA==</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8SYgBhAHMAZQBfAGwAaQBuAGsALQAxAEAAQQBzAHMAZQBtADEABAAAABAAAAABAAAAAQAAALIAAAA=</a:base64Binary><a:base64Binary>yDIAAAUAAAD//v8UcwBlAHIAdgBvAF8AbQBvAHQAbwByAC0AMQBAAEEAcwBzAGUAbQAxAAQAAAAQAAAAAQAAAAEAAAC6AAAA</a:base64Binary></SWComponentPIDs><SWMainComponentPID i:nil="true"/><Visual z:Ref="i83"/><isFixedFrame>false</isFixedFrame><isIncomplete>false</isIncomplete></Link></Children><Collision z:Ref="i29"/><Inertial z:Ref="i3"/><Joint z:Ref="i36"/><NameAttribute z:Ref="i2"/><Parent i:nil="true"/><STLQualityFine>false</STLQualityFine><SWComponentPIDs xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:base64Binary>yDIAAAUAAAD//v8NYgBhAHMAZQAtADEAQABBAHMAcwBlAG0AMQAEAAAAEAAAAAEAAAABAAAAFQAAAA==</a:base64Binary></SWComponentPIDs><SWMainComponentPID i:nil="true"/><Visual z:Ref="i16"/><isFixedFrame>false</isFixedFrame><isIncomplete>false</isIncomplete></Link>
+2022-06-09 14:52:43,000 INFO  AssemblyExportForm.cs: 309 - Saving URDF package to C:\Users\Bassam\Crawler_Rob
+2022-06-09 14:52:43,000 INFO  ExportHelper.cs: 147 - Beginning the export process
+2022-06-09 14:52:43,001 INFO  ExportHelper.cs: 153 - Creating package directories with name Crawler_Rob and save path C:\Users\Bassam
+2022-06-09 14:52:45,753 INFO  ExportHelper.cs: 162 - Creating CMakeLists.txt at C:\Users\Bassam\Crawler_Rob\CMakeLists.txt
+2022-06-09 14:52:45,754 INFO  ExportHelper.cs: 166 - Creating joint names config at C:\Users\Bassam\Crawler_Rob\config\joint_names_Crawler_Rob.yaml
+2022-06-09 14:52:45,755 INFO  ExportHelper.cs: 170 - Creating package.xml at C:\Users\Bassam\Crawler_Rob\package.xml
+2022-06-09 14:52:45,755 INFO  PackageXMLWriter.cs: 21 - Creating package.xml at C:\Users\Bassam\Crawler_Rob\package.xml
+2022-06-09 14:52:45,756 INFO  ExportHelper.cs: 177 - Creating RVIZ launch file in C:\Users\Bassam\Crawler_Rob\launch\
+2022-06-09 14:52:45,757 INFO  ExportHelper.cs: 182 - Creating Gazebo launch file in C:\Users\Bassam\Crawler_Rob\launch\
+2022-06-09 14:52:45,758 INFO  ExportHelper.cs: 187 - Saving existing STL preferences
+2022-06-09 14:52:45,758 INFO  ExportHelper.cs: 450 - Saving users preferences
+2022-06-09 14:52:45,759 INFO  ExportHelper.cs: 190 - Modifying STL preferences
+2022-06-09 14:52:45,759 INFO  ExportHelper.cs: 464 - Setting STL preferences
+2022-06-09 14:52:45,760 INFO  ExportHelper.cs: 196 - Found 0 hidden components 
+2022-06-09 14:52:45,760 INFO  ExportHelper.cs: 197 - Hiding all components
+2022-06-09 14:52:45,929 INFO  ExportHelper.cs: 204 - Beginning individual files export
+2022-06-09 14:52:45,931 INFO  ExportHelper.cs: 270 - Exporting link: base_link
+2022-06-09 14:52:45,931 INFO  ExportHelper.cs: 272 - Link base_link has 1 children
+2022-06-09 14:52:45,932 INFO  ExportHelper.cs: 270 - Exporting link: Link_1
+2022-06-09 14:52:45,933 INFO  ExportHelper.cs: 272 - Link Link_1 has 1 children
+2022-06-09 14:52:45,933 INFO  ExportHelper.cs: 270 - Exporting link: Link_2
+2022-06-09 14:52:45,934 INFO  ExportHelper.cs: 272 - Link Link_2 has 1 children
+2022-06-09 14:52:45,935 INFO  ExportHelper.cs: 270 - Exporting link: Link_3
+2022-06-09 14:52:45,935 INFO  ExportHelper.cs: 272 - Link Link_3 has 0 children
+2022-06-09 14:52:45,935 INFO  ExportHelper.cs: 317 - Link_3: Exporting STL with coordinate frame Origin_J2
+2022-06-09 14:52:45,935 INFO  ExportHelper.cs: 322 - Link_3: Reference geometry name 
+2022-06-09 14:52:46,174 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\Bassam\Crawler_Rob\meshes\Link_3.STL
+2022-06-09 14:52:46,329 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2022-06-09 14:52:46,329 INFO  ExportHelper.cs: 317 - Link_2: Exporting STL with coordinate frame Origin_J1
+2022-06-09 14:52:46,330 INFO  ExportHelper.cs: 322 - Link_2: Reference geometry name 
+2022-06-09 14:52:46,377 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\Bassam\Crawler_Rob\meshes\Link_2.STL
+2022-06-09 14:52:46,630 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2022-06-09 14:52:46,630 INFO  ExportHelper.cs: 317 - Link_1: Exporting STL with coordinate frame Origin_Base
+2022-06-09 14:52:46,631 INFO  ExportHelper.cs: 322 - Link_1: Reference geometry name 
+2022-06-09 14:52:46,704 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\Bassam\Crawler_Rob\meshes\Link_1.STL
+2022-06-09 14:52:46,912 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2022-06-09 14:52:46,913 INFO  ExportHelper.cs: 317 - base_link: Exporting STL with coordinate frame Origin_global
+2022-06-09 14:52:46,913 INFO  ExportHelper.cs: 322 - base_link: Reference geometry name 
+2022-06-09 14:52:46,968 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\Bassam\Crawler_Rob\meshes\base_link.STL
+2022-06-09 14:52:47,077 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2022-06-09 14:52:47,077 INFO  ExportHelper.cs: 145 - Showing all components except previously hidden components
+2022-06-09 14:52:47,656 INFO  ExportHelper.cs: 145 - Resetting STL preferences
+2022-06-09 14:52:47,657 INFO  ExportHelper.cs: 478 - Returning STL preferences to user preferences
+2022-06-09 14:52:47,657 INFO  ExportHelper.cs: 228 - Writing URDF file to C:\Users\Bassam\Crawler_Rob\urdf\Crawler_Rob.urdf
+2022-06-09 14:52:47,658 INFO  CSVImportExport.cs: 32 - Writing CSV file C:\Users\Bassam\Crawler_Rob\urdf\Crawler_Rob.csv
+2022-06-09 14:52:47,660 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2022-06-09 14:52:47,660 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2022-06-09 14:52:47,660 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2022-06-09 14:52:47,661 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2022-06-09 14:52:47,662 INFO  ExportHelper.cs: 234 - Copying log file
+2022-06-09 14:52:47,662 INFO  ExportHelper.cs: 439 - Copying C:\Users\Bassam\sw2urdf_logs\sw2urdf.log to C:\Users\Bassam\Crawler_Rob\export.log

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Crawler_Rob">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.067394 0.002 -0.083543"
+        rpy="0 0 0" />
+      <mass
+        value="0.11995" />
+      <inertia
+        ixx="0.00050856"
+        ixy="-1.4575E-22"
+        ixz="-1.1589E-06"
+        iyy="0.00068251"
+        iyz="1.4041E-23"
+        izz="0.00017426" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Crawler_Rob/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Crawler_Rob/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link_1">
+    <inertial>
+      <origin
+        xyz="-0.05908 0.0029131 0.0096743"
+        rpy="0 0 0" />
+      <mass
+        value="0.040296" />
+      <inertia
+        ixx="5.5459E-06"
+        ixy="-2.0201E-07"
+        ixz="1.3913E-07"
+        iyy="1.308E-05"
+        iyz="5.2993E-23"
+        izz="1.0886E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Crawler_Rob/meshes/Link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Crawler_Rob/meshes/Link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Base"
+    type="fixed">
+    <origin
+      xyz="0.1095 0.175 -0.021"
+      rpy="3.1416 1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link_1" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="Link_2">
+    <inertial>
+      <origin
+        xyz="0.0032708 -0.052312 -0.022567"
+        rpy="0 0 0" />
+      <mass
+        value="0.040888" />
+      <inertia
+        ixx="1.6971E-05"
+        ixy="-5.4279E-07"
+        ixz="-2.8693E-20"
+        iyy="5.6108E-06"
+        iyz="1.3913E-07"
+        izz="1.4841E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Crawler_Rob/meshes/Link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Crawler_Rob/meshes/Link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J1"
+    type="revolute">
+    <origin
+      xyz="-0.07085 0.0048895 0.026"
+      rpy="3.1416 0 2.4623" />
+    <parent
+      link="Link_1" />
+    <child
+      link="Link_2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_3">
+    <inertial>
+      <origin
+        xyz="-0.018102 -0.00015262 -0.0036341"
+        rpy="0 0 0" />
+      <mass
+        value="0.006685" />
+      <inertia
+        ixx="2.8345E-07"
+        ixy="-3.7711E-08"
+        ixz="5.3914E-23"
+        iyy="2.7068E-06"
+        iyz="1.8481E-23"
+        izz="2.9726E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Crawler_Rob/meshes/Link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Crawler_Rob/meshes/Link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J2"
+    type="revolute">
+    <origin
+      xyz="0.0048895 -0.07085 0"
+      rpy="3.1416 0 0" />
+    <parent
+      link="Link_2" />
+    <child
+      link="Link_3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
