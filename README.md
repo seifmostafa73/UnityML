@@ -56,20 +56,20 @@ while i only tweaked little physics paramters in the settings , the simulation y
 
 ## Hardware
 
-###Motors
+### Motors
 We used 2 MG-995 servo motors of Stall torque ranging from  9.4kg/cm (4.8v) to 11kg/cm (6v). Operating voltage range: 4.8 V to 7.2 V.
 
 ![1](https://user-images.githubusercontent.com/76854651/176740283-9d32f1ca-18ca-4c33-ad35-f04383ad7d38.jpg)
 
 The MG-995 cycle is 20 ms. The 0° correspond to 0.5 ms on time and the 180° correspond to  2.5ms. Timer 1 was used to control the 2 motors with OCR1A controlling motor 1 on time  and OCR1B controlling motor 2 on time.
 
-###Sensors
+### Sensors
 A rotary encoder was used to detect motion and it’s direction. The encoder values (1,0) and direction (1,-1) are used to feedback the reward to the Qlearn algorithm.
 
 ![2](https://user-images.githubusercontent.com/76854651/176740687-db6280d9-7384-449b-aa50-fcb5d5612b6b.jpg)
 External interrupt INT0 is used to detect the reading of the rotary encoder.
 
-###Powering
+### Powering
 The robot have 2 powering sources. 
 1)Two AAA batteries of 6v  and 500 mA to power the encoder and the AVR microcontroller.
 
