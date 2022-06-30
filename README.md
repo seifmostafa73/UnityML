@@ -67,6 +67,7 @@ The MG-995 cycle is 20 ms. The 0° correspond to 0.5 ms on time and the 180° co
 A rotary encoder was used to detect motion and it’s direction. The encoder values (1,0) and direction (1,-1) are used to feedback the reward to the Qlearn algorithm.
 
 ![2](https://user-images.githubusercontent.com/76854651/176740687-db6280d9-7384-449b-aa50-fcb5d5612b6b.jpg)
+
 External interrupt INT0 is used to detect the reading of the rotary encoder.
 
 ### Powering
@@ -74,6 +75,7 @@ The robot have 2 powering sources.
 1)Two AAA batteries of 6v  and 500 mA to power the encoder and the AVR microcontroller.
 
 2)We used a 5000mA lithium bulk battery of volt range up to 15v to power the 2 servo motors  
+
 ![3](https://user-images.githubusercontent.com/76854651/176741056-599e8062-b92d-4ba5-8fe5-01a07cd22830.jpg)
 
 
