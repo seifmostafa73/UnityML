@@ -52,9 +52,14 @@ while i only tweaked little physics paramters in the settings , the simulation y
 
 ![image](https://user-images.githubusercontent.com/55613060/175784000-e1bf9d34-abc0-4aff-be46-8eb30090023e.png)
 
+### Robot learning in real-time
 
 
-## Hardware
+https://user-images.githubusercontent.com/55613060/180159667-6895ac3a-1d29-453c-9e5c-d6b078a34d9f.mp4
+
+
+
+## Hardware components
 
 ### Motors
 We used 2 MG-995 servo motors of Stall torque ranging from  9.4kg/cm (4.8v) to 11kg/cm (6v). Operating voltage range: 4.8 V to 7.2 V.
