@@ -47,8 +47,8 @@ https://user-images.githubusercontent.com/55613060/175782833-ba9e5bd8-0ca3-43d5-
 ## Hardware results
 
 ### Simulation vs hardware
-I began this project to be used only as a basis to understand the algorithm in depth and to cut training time and paramters tuning , but ended up actually using the exact same code , down to the delay values ! 
-while i only tweaked little physics paramters in the settings , the simulation yielded a pretty accurate results, this can be seen in the comparison between the C and C# implemntation
+I began this project to be used only as a base to understand the algorithm in depth and to cut training time and paramters tuning , but ended up actually using the exact same code , down to the delay values ! 
+while I only tweaked little physics paramters in the settings , the simulation yielded a pretty accurate results, this can be seen in the comparison between the C and C# implemntation
 
 ![image](https://user-images.githubusercontent.com/55613060/175784000-e1bf9d34-abc0-4aff-be46-8eb30090023e.png)
 
